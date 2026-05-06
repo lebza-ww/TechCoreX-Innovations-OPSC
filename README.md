@@ -1,10 +1,20 @@
 # TechCoreX-Innovations-OPSC
-**Track. Save. Achieve.**  
+# 💰 MaliBudget – Personal Finance Manager
+
+> **Track. Save. Achieve.**  
 > A mobile budgeting app built to help South Africans manage their finances with ease.
 
 ---
 
-## 📽️ Demo Video
+##  Repository
+
+[![GitHub](https://img.shields.io/badge/GitHub-TechCoreX--Innovations--OPSC-181717?logo=github)](https://github.com/lebza-ww/TechCoreX-Innovations-OPSC.git)
+
+🔗 [https://github.com/lebza-ww/TechCoreX-Innovations-OPSC.git](https://github.com/lebza-ww/TechCoreX-Innovations-OPSC.git)
+
+---
+
+##  Demo Video
 
 [![MaliBudget Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube)](https://youtu.be/wQIomhGl7eA)
 
@@ -12,7 +22,7 @@
 
 ---
 
-## 📱 About the App
+##  About the App
 
 **MaliBudget** is a personal finance management mobile application designed to help users track income and expenses, set savings goals, manage budgets by category, and gain insights through analytics — all in one place.
 
@@ -20,19 +30,19 @@ The app is built with the South African market in mind, supporting ZAR (South Af
 
 ---
 
-## ✨ Features
+##  Features
 
-- **User Authentication** — Secure login and account creation with password strength validation
-- **Dashboard / Home Screen** — Overview of total balance, income, and expenses at a glance
-- **Add Expense** — Log expenses by amount, category, date, time, and optional description with receipt photo upload
-- **Budget Tracking** — Set and monitor spending budgets per category (e.g., Groceries, Entertainment)
-- **Savings Goals** — Create and track personal savings targets
-- **Analytics** — Visualise spending trends over monthly, 3-month, and 6-month periods
-- **Profile & Settings** — Manage currency, categories, dark mode, notifications, and security settings
+- **User Authentication** - Secure login and account creation with password strength validation
+- **Dashboard / Home Screen** - Overview of total balance, income, and expenses at a glance
+- **Add Expense** - Log expenses by amount, category, date, time, and optional description with receipt photo upload
+- **Budget Tracking** - Set and monitor spending budgets per category (e.g., Groceries, Entertainment)
+- **Savings Goals** - Create and track personal savings targets
+- **Analytics** - Visualise spending trends over monthly, 3-month, and 6-month periods
+- **Profile & Settings** - Manage currency, categories, dark mode, notifications, and security settings
 
 ---
 
-## 📸 Screenshots
+##  App Layout Description of Screenshots
 
 | Login | Register | Home |
 |-------|----------|------|
@@ -44,100 +54,105 @@ The app is built with the South African market in mind, supporting ZAR (South Af
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-> _(Update this section with your actual tech stack)_
-
-- **Framework:** React Native / Flutter _(specify yours)_
-- **Backend:** Firebase / Supabase / Node.js _(specify yours)_
-- **Database:** Firestore / PostgreSQL _(specify yours)_
-- **Authentication:** Firebase Auth _(specify yours)_
-- **Currency:** ZAR (South African Rand)
+- **IDE:** Android Studio
+- **Language:** Kotlin
+- **Platform:** Android (Native)
+- **Backend & Database:** Firebase (Firestore / Realtime Database)
+- **Authentication:** Firebase Authentication
+- **UI:** XML Layouts (Material Design)
+- **Build System:** Gradle (Kotlin DSL)
+- **Currency:** ZAR (South African Rand / R)
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
-> _(Update with your actual prerequisites)_
-
-- Node.js >= 18
-- npm or yarn
-- Android Studio / Xcode (for mobile emulation)
-- A Firebase project (or your chosen backend)
+- Android Studio (latest stable version)
+- Android SDK (API Level 21+)
+- Java Development Kit (JDK 11 or higher)
+- A Firebase project with Firestore & Authentication enabled
+- An Android device or emulator (Android 5.0 Lollipop or higher)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/malibudget.git
+git clone https://github.com/lebza-ww/TechCoreX-Innovations-OPSC.git
 
-# Navigate into the project directory
-cd malibudget
+# Open the project in Android Studio
+# File > Open > Select the cloned folder
 
-# Install dependencies
-npm install
+# Sync Gradle dependencies
+# Click "Sync Now" when prompted in Android Studio
 
-# Start the development server
-npm start
+# Connect your Firebase project
+# Add your google-services.json to the /app directory
+
+# Run the app
+# Click the Run button or use Shift + F10
 ```
 
-### Running on Android
+### Running on Android Device / Emulator
 
-```bash
-npm run android
-```
-
-### Running on iOS
-
-```bash
-npm run ios
-```
+1. Connect your Android device via USB or start an emulator in Android Studio
+2. Select your target device from the device dropdown
+3. Click **Run ▶** or press `Shift + F10`
 
 ---
 
-## 👥 Group Members
+##  Group Members
 
 | Name | Student Number |
 |------|---------------|
-| Munei Nevhutanda | A |
-| Lebogang Ntlatleng | A |
-| Portia Mashaba | A |
-| Mpho Nethomboni | A |
-| Mulamuleli Given Mutshotsho | A |
+| Munei Nevhutanda | ST10333563 |
+| Lebogang Ntlatleng | ST10456295 |
+| Portia Mashaba | ST10357369 |
+| Mpho Nethomboni | ST10448422 |
+| Mulamuleli Given Mutshotsho | ST10311127|
 
 > _Student numbers to be filled in._
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-malibudget/
-├── src/
-│   ├── screens/
-│   │   ├── LoginScreen.js
-│   │   ├── RegisterScreen.js
-│   │   ├── HomeScreen.js
-│   │   ├── AddExpenseScreen.js
-│   │   ├── AnalyticsScreen.js
-│   │   ├── GoalsScreen.js
-│   │   └── ProfileScreen.js
-│   ├── components/
-│   ├── navigation/
-│   └── utils/
-├── assets/
-├── App.js
+TechCoreX-Innovations-OPSC/
+├── MaliBudget/
+│   ├── app/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/malibudget/
+│   │   │   │   │       ├── activities/
+│   │   │   │   │       ├── fragments/
+│   │   │   │   │       ├── adapters/
+│   │   │   │   │       └── models/
+│   │   │   │   ├── res/
+│   │   │   │   │   ├── layout/
+│   │   │   │   │   ├── drawable/
+│   │   │   │   │   └── values/
+│   │   │   │   └── AndroidManifest.xml
+│   │   │   └── google-services.json
+│   │   └── build.gradle.kts
+│   └── build/
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
 └── README.md
 ```
 
 ---
 
-## 📄 License
+##  License
 
-This project was developed as part of an academic assignment. All rights reserved by the group members listed above.
+This project is licensed under the Apache 2.0 License. It was developed as part of an academic assignment. All rights reserved by the group members listed above.
 
 ---
 
 *MaliBudget — Manage your finances with ease.* 🇿🇦
+
