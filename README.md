@@ -24,7 +24,7 @@
 
 ##  About the App
 
-**MaliBudget** is a personal finance management mobile application designed to help users track income and expenses, set savings goals, manage budgets by category, and gain insights through analytics — all in one place.
+**MaliBudget** is a personal finance management mobile application designed to help users track income and expenses, set savings goals, manage budgets by category, and gain insights through analytics - all in one place.
 
 The app is built with the South African market in mind, supporting ZAR (South African Rand) as the default currency and using a +27 phone number format during registration.
 
@@ -114,7 +114,7 @@ git clone https://github.com/lebza-ww/TechCoreX-Innovations-OPSC.git
 | Mpho Nethomboni | ST10448422 |
 | Mulamuleli Given Mutshotsho | ST10311127|
 
-> _Student numbers to be filled in._
+
 
 ---
 
@@ -154,5 +154,5 @@ This project is licensed under the Apache 2.0 License. It was developed as part 
 
 ---
 
-*MaliBudget — Manage your finances with ease.* 🇿🇦
+*MaliBudget - Manage your finances with ease.* 🇿🇦
 
